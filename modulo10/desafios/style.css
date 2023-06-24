@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200..900&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    color: #04146c;
+    text-decoration: none;
+
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #0a2ff1;
+    margin-left: 15px;
+}
+p{
+    font-size: 40px;
+}
+a{  
+    display: inline-block;
+    height: 48px;
+    font-size: 24px;
+    color: white;
+    background-color: #04146c;
+    padding: 5px;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    top:200px;
+    rotate: -90deg;
+    z-index: 40;
+}
+
+.contenedor{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contenedor .texto{
+    width: 40%;
+}
+.imagen img{
+    width: 100%;
+}
+.contenedor .imagen{
+    width: 40%;
+}
+
+@media (max-width:1000px) {
+    .contenedor{
+        display: block;
+        min-width: 700px;
+        width: 80%;
+    }
+    .contenedor .texto{
+        width: 90%;
+        margin: auto;
+    }
+    .contenedor .imagen{
+        width: 90%;
+        margin: auto;
+    }
+    a{
+        right: -45px;
+    }
+}
+
+
+/* tarea 2*/
+.tarea2 h1{
+    color:rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+}
+input{
+    color: #414166;
+    height: 60px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 40px;
+    outline: none;
+    border:none;
+    
+}
+.tarea2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0,0,0,.4);
+}
+
+.tarea2 div{
+    z-index: 4;
+    position: absolute; 
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+video{
+    z-index: -1;
+    height: auto;
+    width: 100%;
+    
+}
+input:hover{
+    border: 1px solid green;
+    box-shadow: 2px 2px 10px green,-2px -2px 10px green;
+}
+input:focus{
+    border: 1px solid green;
+    box-shadow: 2px 2px 10px green,-2px -2px 10px green;
+    outline: none;
+}
+.tarea2 h1:hover{
+    text-shadow: 2px 2px 10px red;
+}
+

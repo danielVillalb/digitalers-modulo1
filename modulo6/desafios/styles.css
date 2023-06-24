@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@font-face {
+    font-family: miFuente;
+    src: url(./coolvetica/coolvetica\ compressed\ hv.otf);
+
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #04146c;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+h1{
+
+    font-family: miFuente;
+    font-size: 120px;/*90pt*/
+    color: #0a2ff1;
+   
+}
+
+p{
+    
+    font-size: 40px;/*30pt*/
+    color: #04146c;
+
+}
+
+button{
+    display: block;
+    font-size: 40px;/*30pt*/
+    color: #04146c;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    
+}
+
+.botones button:first-child{
+    color: white;
+    background-color: #0a2ff1;
+    
+}
+.botones button:first-child:hover{
+    background-color: white;
+    color: #04146c;
+    box-shadow: 2px 2px 10px blue,-2px -2px 10px blue;
+}
+.botones button:last-child{
+    background-color: white;
+    color: #04146c;
+}
+.botones button:last-child:hover{
+    color: white;
+    background-color: #0a2ff1;
+    box-shadow: 2px 2px 10px red,-2px -2px 10px red;
+}
+.botones{
+    width: 100%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: bold;
+    color:#0a2ff1;
+    font-size: 64px;
+}
+figcaption{
+    font-size: 16px;
+    color: #04146c;
+}
+strong{
+    font-weight: bold;
+}
+.opin{  
+    display: block;
+    color:white;
+    text-align: start;
+    padding-left: 15px;
+    background-color: #04146c;
+    font-size: 60px;
+}
+.opin:hover{
+    color: #0a2ff1;
+}
+
+span{
+    font-style: italic;
+    margin: 0 5px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+.contenedor div{
+    width: 30%;
+    background-color: #eff2ff;
+}
+figure img{
+    width: 150px;
+    margin:10px 5px;
+}
+.contenedor div p{
+    font-size: 24px;
+    margin: 10px 5px;
+}
+h3{
+    margin: 40px 5px 5px;
+}
+.sub{
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+
+strong{
+    font-weight: 900;
+}

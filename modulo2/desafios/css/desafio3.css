@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #04146c;
+}
+h1{ 
+    width: 400px;
+    font-size: 38px;
+    color: white;
+    margin: auto;
+}
+h2{
+    
+    font-size: 88px;
+    color: #04146c;
+    
+}
+
+p{
+    font-size: 26px;
+    color: #04146c;
+}
+figcaption{
+    font-size: 24px;
+    background-color: #edf7ff;
+    height: 100px;
+}
+figcaption p{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+img{
+    width: 600px;
+}
+figure{
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    width: 80%;
+    border: 1px solid #04146c;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

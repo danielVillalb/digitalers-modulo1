@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200..900&family=Roboto:wght@100..900&display=swap');
+@font-face {
+    font-family: miFuente;
+    src: url(./coolvetica/coolvetica\ condensed\ rg.otf);
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #04146c;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #eff2ff;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+figcaption{
+    font-weight: 900;
+    font-size: 26px;
+    color: #0a2ff1;
+}
+p{
+    font-size: 24px;
+    
+}
+figure{
+    text-align: center;
+}
+
+i{
+    font-size: 50px;
+    color: #0a2ff1;
+    margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+    font-family: miFuente;
+    font-weight: 600;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+@media(max-width:768px){
+    .contenedor div{
+        width: 40%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .contenedor{
+        flex-wrap: wrap;
+
+    }
+}
+.identificacion{
+    width: 90%;
+    margin: auto;
+    background-color: #eff2ff;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.identificacion figure i{
+    display: inline-block;
+    padding: 15px;
+}
+.identificacion div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:10px 10px;
+
+}
+.identificacion div a,
+.identificacion div a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #04146c;
+    margin: 10px ;
+
+}
+.identificacion div a:hover,
+.identificacion div a i:hover{
+    color: #0a2ff1;
+
+}
+section{
+    margin: 50px 0;
+}
+
+/* desafio 3 */
+.desafio3{
+    font-family: 'Mulish', sans-serif;
+    width: 90%;
+    margin: auto;
+}
+.desafio3 h2{
+    font-size: 40px;/*30pt*/
+    color: #0a2ff1;
+    font-weight: 400;
+}
+.desafio3 h1{
+    font-weight: 900;
+}
+
+.desafio3 a{
+    display: inline-block;
+    background-color: #0a2ff1;
+    color: white;
+    width: 300px;
+    font-size: 30px;/*22pt*/
+    margin: 50px 5px;
+    text-align: center;
+    border: 1px solid #04146c;
+    border-radius: 15px;
+    
+}
+.desafio3 a:hover{
+    color: #04146c;
+    background-color: white;
+    box-shadow: 2px 2px 10px #0a2ff1,-2px -2px 10px #0a2ff1;
+}
+

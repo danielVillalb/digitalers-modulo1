@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+    <main class="contenedor">
+
+        <div class="caja">
+            <div>
+                <h1>Iniciar sesion</h1>
+            </div>
+            <form action="./php/index.php" class="inputs" method="post">
+                <input type="text" placeholder="Introduzca el nombre del usuario" name="nombre">
+                <input type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="Introduzca la contraseña">
+                <button>Iniciar sesion</button>
+                <div class="linea"></div>
+            </form>
+            <div>
+                <p>No puede iniciar sesion?</p>
+                <p>Registrese</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

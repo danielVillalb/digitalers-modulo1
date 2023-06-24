@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+
+    
+}
+*{
+    box-sizing: border-box;
+    
+}
+.contenedor{
+    max-width: 100%;
+}
+h1{
+    font-variation-settings: 'wght' 900;
+    color: #0a2ff1;
+    font-size: 78px;
+}
+h1 span{
+    background: #3ffff3;
+}
+
+
+p{
+    font-variation-settings: 'wght' 300;
+    font-size: 30px;
+    color: #0a2ff1;
+}
+.caja{
+    width: 200px;
+    height: auto;
+    background-image: url(../imagenes/fondo.JPG);
+    background-size: contain;
+}
+.celu{
+    
+    width:200px ;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.imagenes{
+    width: 90%;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.imagenes img:nth-child(1){
+    width: auto;
+    height: 20px;
+}
+.imagenes img:nth-child(2){
+    width: auto;
+    height: 40px;
+}
+.imagenes img:nth-child(3){
+    width: auto;
+    height: 50px;
+}
+.imagenes img:nth-child(4){
+    width: auto;
+    height: 50px;
+}
+.imagenes img:nth-child(5){
+    width: auto;
+    height: 50px;
+}
+.imagenes img:nth-child(6){
+    width: auto;
+    height: 50px;
+}
+footer{
+    font-variation-settings: 'wght' 300;
+    font-size: 32;
+    color: #0a2ff1;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+footer strong{
+    font-variation-settings: 'wght' 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
