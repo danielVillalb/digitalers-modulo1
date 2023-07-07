@@ -50,7 +50,9 @@ h3{
     font-size: 28px;
     margin-top: 25px;
 }
-
+ol{
+    list-style-position: inside;
+}
 ol li{
     font-size: 32px;
 }
@@ -74,6 +76,9 @@ h1,h2,h3,h4{
 }
 .yellow{
     display: inline-block;
+    background-color: #fCEE21;
+}
+.color{
     background-color: #fCEE21;
 }
 
@@ -105,6 +110,7 @@ nav a:hover{
     width: 90%;
     margin-bottom: 60px;
     border-bottom: 1px solid #000;
+    padding-bottom: 30px;
 }
 .section{
 
@@ -291,7 +297,7 @@ footer div a:hover{
 @media(max-width:800px){
     /*---------fuentes--------*/
     body{
-        min-width: 500px;
+        min-width: 400px;
         font-size: 1rem;
     }
     h1 strong{
@@ -330,6 +336,9 @@ footer div a:hover{
     label,input,textarea{
         font-size: 1.2rem;
     }
+    input,textarea{
+        border:1px solid #000;
+    }
     button{
         font-size: 1.1rem;
     }
@@ -340,7 +349,7 @@ footer div a:hover{
         margin: auto;
         align-items: center;
         padding-bottom: 10px;
-        min-width: 400px;
+        min-width: 300px;
     }
     /*--------nav----------------*/
     header{
