@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formulario.css">
 </head>
 <body>
     <nav>
@@ -21,9 +22,11 @@
         <form action="../php/index.php" method="post" class="contenedor"> 
             <div class="caja">
                 <label for="nombre">Nombre completo <span>*</span></label>
-                <input type="text" name="nombre">
+                <input type="text" name="nombre" required>
+                <label for="telefono">Telefono<span>*</span></label>
+                <input type="number" name="telefono" required>
                 <label for="email">Email <span>*</span></label>
-                <input type="email" name="email">
+                <input type="email" name="email" required>
                 <label for="comentario">Comentario <span>*</span></label>
                 <textarea id="coment" type="text" name="comentario"></textarea>
                 <div class="botones">
