@@ -291,7 +291,7 @@ footer div a:hover{
 @media(max-width:800px){
     /*---------fuentes--------*/
     body{
-        min-width: 700px;
+        min-width: 500px;
         font-size: 1rem;
     }
     h1 strong{
@@ -340,7 +340,7 @@ footer div a:hover{
         margin: auto;
         align-items: center;
         padding-bottom: 10px;
-        min-width: 600px;
+        min-width: 400px;
     }
     /*--------nav----------------*/
     header{
